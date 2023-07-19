@@ -72,10 +72,11 @@ const App = () => {
       flexDirection: "column",
       gap: "2rem",
       margin: "0 auto",
-      alignItems: "center"
+      alignItems: "center",
+      
     }}>
       
-    <div style={{ fontSize: "2rem", textAlign: "center"}}>
+    <div style={{ fontSize: "3.5rem", textAlign: "center", position: "absolute", top: 150, zIndex: "100", color: "red"}}>
       {isWinner && "Winnner! - Refresh to try again"}
       {isLoser && "Nice Try - Refresh to try again"}
     </div>
